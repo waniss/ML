@@ -210,9 +210,9 @@ f, ax = plt.subplots(figsize=(11, 9))
 cmap = sns.diverging_palette(220, 10, as_cmap=True)
 mask
 # affichage de la heatMap
-sns.heatmap(cor, annot=True,mask=mask1, cmap=cmap, vmax=.9, 
+#sns.heatmap(cor, annot=True,mask=mask1, cmap=cmap, vmax=.9, 
             square=False,linewidths=.3, cbar_kws={"shrink": .5}, ax=ax)
-#with sns.axes_style("dark"):ax = sns.heatmap(cor, cbar_kws={"shrink": .5},cmap=cmap,mask=mask1, vmax=.3, square=True)
+with sns.axes_style("white"):ax = sns.heatmap(cor,linewidths=.3,annot=True, cbar_kws={"shrink": .5},cmap=cmap,mask=mask1, vmax=.9, square=True)
     
 
 
