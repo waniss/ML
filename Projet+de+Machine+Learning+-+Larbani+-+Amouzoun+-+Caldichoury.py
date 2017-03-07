@@ -223,6 +223,7 @@ with sns.axes_style("white"):ax = sns.heatmap(cor,linewidths=.3,annot=True, cbar
 # - Le test du chi deux peut être utilisé pour déterminer l'association entre les variables catégorielles. Le test est basé sur la différence entre les fréquences attendues et les fréquences observées dans une ou plusieurs catégories de la table des fréquences. 
 # La distribution du chi deux renvoie une probabilité  et le degré de liberté. Une probabilité de zéro montre une dépendance complète entre deux variables catégorielles et une probabilité de un signifie que deux variables catégorielles sont complètement indépendantes. 
 # Dans le package scipy.stats il existe une fonction chi2_contingency qui permet de calculer ce test a partir d'une table de contingence. 
+# De plus, pour chaque couple de variable un plot de la table de contigence a été ajouté pour appuyer le test du chi deux.
 
 # In[109]:
 
